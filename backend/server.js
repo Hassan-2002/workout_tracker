@@ -12,4 +12,6 @@ app.use(workoutsRoutes)
 app.listen(process.env.PORT, () => {
     console.log('listening on port', process.env.PORT);
 });
-
+app._router.stack.forEach((route, index) => {
+    console.log(route.route.path);
+});
