@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for workout buddy",
+  "main": "server.js",
+  "scripts": {
+    "test": "run node",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "workout",
+    "buddy"
+  ],
+  "author": "abdullah ibrahim",
+  "license": "Unlicense",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
